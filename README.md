@@ -41,7 +41,7 @@ pip install pathlib
 pip install numpy
 ```
 
-At the beginning the *risk_return_analysis.ipynb* file the technologies are calling in with this code:
+Call *risk_return_analysis.ipynb*  with this code:
 
 ```
 import pandas as pd
