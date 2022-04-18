@@ -3,19 +3,39 @@ Columbia Bootcamp Module 4 Challenge
 
 # Analyzing Portfolio Risk and Return
 
-This program is designed to evaluate four new investment options for inclusion in the client portfolios for our imagined FinTech investing platform. The purpose of the program is to take a large collated data set and make sense of what we can glean from that data. This includes consdering returns, risk facors, sensitivty to the market in general. Through this program we are able to pare down our choices to the most suitable, dive deeper upon those options, and ultimately recommend which fund we feel would be most suitable to be added to our investing platform.
+evaluating four new investment options for inclusion in the client portfolios. Legendary fund and hedge-fund managers run all four selections. (People sometimes refer to these managers as whales because of the large amount of money that they manage). This program help determine the fund with the most investment potential based on key risk-management metrics: the daily returns, standard deviations, Sharpe ratios, and betas.
 
-For additional reference, whale_navs.csv covers the window from October 2014 through September 10th of 2020 for the four funds and market index, listing the daily closing prices as the tracked factor. This data file is located within the Resources sub-folder, and is the data we are currently using for analysis.
+We produce a Jupyter notebook that contains your data preparation, analysis, and visualizations for key risk and return metrics. 
+Key elements in this assignment:
+- A single DataFrame imported from a CSV file that has a DateTimeIndex.
+- A risk analysis of the assets that the DataFrame contains vs. the S&P 500. 
+- This analysis include risk-return metrics, including the daily returns, standard deviation, Sharpe ratio, and beta.
+- An evaluation of each asset that uses rolling statistics to track the risk-reward behavior over time.
+
+---
+
+# Instructions 
+Our quantitative analysis includes the following:
+
+- Performance
+
+- Volatility
+
+- Risk
+
+- Risk-return profile
+
+- Portfolio diversification
 
 ---
 
 ## Technologies
 
 Within this program, we will make use of the following external python modules:
-  -- pandas
-  -- matplotlib
-  -- Pathlib
-  -- Numpy
+  - pandas
+  - matplotlib
+  - Pathlib
+  - Numpy
   
   Additionally, this program was created within a python v3.7 build, and its relevant dependencies.
 
